@@ -1,0 +1,29 @@
+{
+  "mainConfig": {
+    "nodeCount": 8,
+    "timeOut": 3.1,
+    "masterIp": "127.0.0.1",
+    "masterPort": 8002
+  },
+  "channelConfig": {
+    "highSpeed": {
+      "lag": 0.1,
+      "maxCount": 9,
+      "buildTime": 1.1,
+      "maxMessageCount": 10
+    },
+    "normalSpeed": {
+      "lag": 0.1,
+      "maxCount": 9,
+      "buildTime": 1.1,
+      "maxMessageCount": 10
+    }
+  },
+  "messageConfig": {
+    "maxPendingMsgSize": 4096,
+    "maxCallMsgSize": 1024,
+    "maxInnerMsgSize": 5120
+  },
+  "index": -1,
+  "maxChannelConn": -1
+}

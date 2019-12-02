@@ -1,0 +1,29 @@
+{
+	"messageConfig":{
+		"maxInnerMsgSize":5120,
+		"maxPendingMsgSize":4096,
+		"maxCallMsgSize":1024
+	},
+	"channelConfig":{
+		"normalSpeed":{
+			"lag":0.1,
+			"buildTime":0.9,
+			"maxMessageCount":20,
+			"maxCount":200
+		},
+		"highSpeed":{
+			"lag":0.03,
+			"buildTime":1.2,
+			"maxMessageCount":15,
+			"maxCount":100
+		}
+	},
+	"index":-1,
+	"maxChannelConn":-1,
+	"mainConfig":{
+		"masterPort":8002,
+		"masterIp":"127.0.0.1",
+		"nodeCount":40,
+		"timeOut":2.9
+	}
+}
